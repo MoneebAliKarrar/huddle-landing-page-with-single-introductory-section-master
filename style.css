@@ -82,6 +82,7 @@ footer i{
 }
 footer{
     padding:0em 3.5em 0em 0em;
+    width: auto;
 }
 footer i:hover{
     color: hsl(300, 69%, 71%);
@@ -98,9 +99,11 @@ footer i:hover{
         background-size: contain;
         
     }
+    .wrapper{
+        height: 150vh;
+    }
     header{
-        width: 100%;
-        padding-left: 4em;
+
         margin : 2em 0em 3em;
     }
     main{
